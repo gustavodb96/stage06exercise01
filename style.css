@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    --ff-body: 'Roboto', sans-serif;
+    --ff-nav: 'Roboto', sans-serif;
+    --ff-p: 'Roboto', sans-serif;
+    --fc-primary: white;
+    
+    font-size: 62.5%;
+
+}
+
+body {
+
+    font-family: var(--ff-body);
+    font-size: 4.8rem;
+    color: var(--fc-primary);
+    
+    height: 100vh;
+   
+    display: grid;
+
+}
+
+
+
+h1 {
+
+    display: grid;
+    justify-content: center;
+
+}
+
+h2 {
+
+    line-height: 6rem;
+    margin-left: 10.2rem;
+    margin-bottom: 1.6rem;
+
+}
+
+p {
+
+    font-size: 1.8rem;
+    line-height: 2.88rem;
+    font-weight: 400;
+
+    width: 64.8rem;
+    height: 20.3rem;
+    margin-left: 10.2rem;
+
+
+}
+
+.navegation {
+
+    display: flex;
+    gap: 3.2rem;
+
+    margin: 4rem 0rem 0rem 7.2rem;
+
+}
+
+nav {
+    
+    display: flex;
+   
+    gap: 3.2rem;
+
+    align-self: start;
+    
+    font-size: 2.4rem;
+
+}
+
+a {
+
+    color: var(--fc-primary);
+    text-decoration: none;
+
+}
+
+.div-home {
+
+    display: grid;
+    justify-items: center;
+
+}
+
+button {
+
+    font-family: var(--ff-body);
+    font-size: 1.4rem;
+    color: var(--fc-primary);
+
+    background: none;
+
+    width: 19.5rem;
+    height: 4.8rem;
+    margin-top: 2.4rem;
+
+    border-radius: 0.5rem;
+    border-color: var(--fc-primary);
+
+}
